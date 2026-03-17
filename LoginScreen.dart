@@ -18,14 +18,14 @@ class LoginScreen extends StatelessWidget {
           children: [
 
             Image.network(
-              "https://upload.wikimedia.org/wikipedia/commons/7/7e/Virat_Kohli_ODI.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/1/15/Virat_Kohli_portrait.jpg",
               height: 200,
             ),
 
             SizedBox(height: 20),
 
             Image.network(
-              "https://imgeng.jagran.com/images/2023/nov/kl-profile1700138082033.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/1/15/Virat_Kohli_portrait.jpg",
               height: 200,
             ),
 
