@@ -1,16 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'login_screen.dart';
 
-import 'login_screen.dart':
-main()
-{
+void main(){
   runApp(MyApp());
 }
-class MyApp extends StatelessWidget{
+
+class MyApp extends StatelessWidget {
+
   @override
-  Widget build(buildContext){
+  Widget build(BuildContext context) {
     return MaterialApp(
-      home:LoginScreen();
-      ); MaterialApp
-    }
+      home: LoginScreen(),
+    );
+  }
 }
